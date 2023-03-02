@@ -14,6 +14,7 @@ const navigation = [
 ];
 
 export default function Hero() {
+  
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (

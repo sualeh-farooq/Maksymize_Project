@@ -22,7 +22,7 @@ export default function Solar() {
             <div className="solar_con">
             <div className="text-left max-w-lg	 flex flex-col justify-around   md:pt-10">
               <h4 className=" uppercase text-md text-red-500 font-medium sm:text-md lg:text-md md:text-md">
-                  we breath
+                  we breathe
                 </h4>
                 <h1 className=" text-4xl font-bold text-white sm:text-4xl lg:text-6xl md:text-4xl">
                   Solar

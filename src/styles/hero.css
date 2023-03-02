@@ -24,7 +24,9 @@
     padding: 10px;
     /* border: 2px solid red; */
 }
-
+.approach-bg{
+  background-color: #f1f1f1;
+}
 .flying {
     width: 35rem;
  
@@ -63,4 +65,12 @@
 
   .red-bg {
     background-color: #f54a4a;
+  }
+
+  .custom-img {
+    background-image: url("../../public/assets/boost.png");
+    background-size: 100%;
+    background-position-x: center;
+    background-position-y: 10px;
+
   }

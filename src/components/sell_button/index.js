@@ -36,3 +36,29 @@ export default function Sell_Button({title}) {
       </>
     )
   }
+
+  export function Result_Button({title}) {
+    return (
+      <>
+      <button className="rounded-full h-14 border-2 font-semibold px-10 py-2 mt-2 items-center text-md bg-red-500 text-white  border-red-500 hover:bg-black hover:text-white hover:border-black duration-500">
+        <span className="flex justify-between" >
+      
+   {title}
+</span>
+        </button>
+      </>
+    )
+  }
+
+  export function Strat_Button({title}) {
+    return (
+      <>
+      <button className="rounded-full h-14 border-2 border-white font-semibold px-10 py-2 mt-2 items-center text-md bg-white text-black   hover:bg-red-500 hover:text-white hover:border-red-500 duration-500">
+        <span className="flex justify-between" >
+      
+   {title}
+</span>
+        </button>
+      </>
+    )
+  }

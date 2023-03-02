@@ -15,10 +15,10 @@ function classNames(...classes) {
 
 export default function NavBar(){
     return <>
-        <Disclosure as="nav" className="bg-white shadow">
+        { <Disclosure as="nav" className="bg-white shadow">
       {({ open }) => (
         <>
-          <div className="mx-auto   h-20 sticky	 max-w-7xl px-2 sm:px-6 lg:px-8">
+          <div className="mx-auto bg-fixed  h-20 sticky	 max-w-7xl px-2 sm:px-6 lg:px-8">
             <div className="relative  flex h-16 justify-between">
               <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
                 {/* Mobile menu button */}
@@ -126,6 +126,8 @@ export default function NavBar(){
           </Disclosure.Panel>
         </>
       )}
-    </Disclosure>
+    </Disclosure> }
     </>
 }
+
+
