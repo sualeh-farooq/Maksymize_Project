@@ -1,11 +1,8 @@
 export default function Stats({stat_one_title , stat_one_desc , stat_two_title , stat_two_desc , stat_three_title , stat_three_desc , stat_four_title , stat_four_desc}){
     return <>
-
-     
-        
             <div class="relative">
                
-                <div class="relative mx-auto bg-gray-200 max-w-7xl px-6 lg:px-8">
+                <div class="relative mx-auto max-w-full bg-gray-200 max-w-7xl px-6 lg:px-8">
                     <div class="mx-auto max-w-full " >
                         <dl class="rounded-lg  p-5 flex justify-between flex-wrap">
                             <div class="flex flex-col  p-6 text-center ">

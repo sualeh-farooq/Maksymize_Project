@@ -1,12 +1,7 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import { Inter } from 'next/font/google'
-// import styles from '@/styles/Home.module.css'
-import { Fragment } from 'react'
-import { Disclosure, Menu, Transition } from '@headlessui/react'
-import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
-import MakLogo from '../../public/assets/logo.png'
-import Main from './main'
+
+import HomePage from './Home'
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
@@ -24,11 +19,8 @@ export default function Home() {
         <link rel='css' href="/styles/hero.scss"/>
       </Head>
     
-    <Main />
+    <HomePage />
     
-
- 
-
     </>
   )
 }
