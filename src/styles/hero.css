@@ -1,0 +1,23 @@
+.banner-con {
+    /* border:2px solid red; */
+    height: max-content !important;
+    display: flex;
+    flex-direction: row !important;
+    justify-content: space-around;
+    width: 100%;
+    
+}
+.banner-con>div{
+    /* border: 2px solid red; */
+    height: max-content;
+
+}
+
+.flying{
+    width: 33rem;
+    /* height: 35rem; */
+    /* margin-bottom: 10px; */
+    /* border: 2px solid red; */
+    /* padding: 0% !important; */
+    /* margin-bottom: 10px; */
+}
