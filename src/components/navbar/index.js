@@ -65,7 +65,7 @@ export default function NavBar(){
                   </a>
                   <a
                     href="#"
-                    className="font-sans hover:font-serif font-semibold inline-flex items-center 	 focus:text-red-400 border-b-2 border-transparent px-1 pt-1 text-sm  text-xl"
+                    className=" font-semibold inline-flex items-center 	 focus:text-red-400 border-b-2 border-transparent px-1 pt-1 text-sm  text-xl"
                   >
                     About
                   </a>

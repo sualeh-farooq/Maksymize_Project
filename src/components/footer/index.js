@@ -1,39 +1,42 @@
-import White_Logo from '../../../public/assets/white_logo.png'
-import Call from '../../../public/assets/call.png'
-import { faCoffee } from '@fortawesome/free-solid-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import White_Logo from "../../../public/assets/white_logo.png";
+import Call from "../../../public/assets/call.png";
 
-import Image from 'next/image'
+import { faPhone , faEnvelope, faL, faLink  } from "@fortawesome/free-solid-svg-icons";
+import { faFacebook , faInstagram ,faLinkedin,faYoutube } from "@fortawesome/free-brands-svg-icons";
+
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
+import Image from "next/image";
 
 const navigation = {
   solutions: [
-    { name: 'Marketing', href: '#' },
-    { name: 'Analytics', href: '#' },
-    { name: 'Commerce', href: '#' },
-    { name: 'Insights', href: '#' },
+    { name: "Marketing", href: "#" },
+    { name: "Analytics", href: "#" },
+    { name: "Commerce", href: "#" },
+    { name: "Insights", href: "#" },
   ],
   support: [
-    { name: 'Pricing', href: '#' },
-    { name: 'Documentation', href: '#' },
-    { name: 'Guides', href: '#' },
-    { name: 'API Status', href: '#' },
+    { name: "Pricing", href: "#" },
+    { name: "Documentation", href: "#" },
+    { name: "Guides", href: "#" },
+    { name: "API Status", href: "#" },
   ],
   company: [
-    { name: 'About', href: '#' },
-    { name: 'Blog', href: '#' },
-    { name: 'Jobs', href: '#' },
-    { name: 'Press', href: '#' },
-    { name: 'Partners', href: '#' },
+    { name: "About", href: "#" },
+    { name: "Blog", href: "#" },
+    { name: "Jobs", href: "#" },
+    { name: "Press", href: "#" },
+    { name: "Partners", href: "#" },
   ],
   legal: [
-    { name: 'Claim', href: '#' },
-    { name: 'Privacy', href: '#' },
-    { name: 'Terms', href: '#' },
+    { name: "Claim", href: "#" },
+    { name: "Privacy", href: "#" },
+    { name: "Terms", href: "#" },
   ],
   social: [
     {
-      name: 'Facebook',
-      href: '#',
+      name: "Facebook",
+      href: "#",
       icon: (props) => (
         <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
           <path
@@ -45,8 +48,8 @@ const navigation = {
       ),
     },
     {
-      name: 'Instagram',
-      href: '#',
+      name: "Instagram",
+      href: "#",
       icon: (props) => (
         <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
           <path
@@ -58,8 +61,8 @@ const navigation = {
       ),
     },
     {
-      name: 'Twitter',
-      href: '#',
+      name: "Twitter",
+      href: "#",
       icon: (props) => (
         <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
           <path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84" />
@@ -67,8 +70,8 @@ const navigation = {
       ),
     },
     {
-      name: 'GitHub',
-      href: '#',
+      name: "GitHub",
+      href: "#",
       icon: (props) => (
         <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
           <path
@@ -80,8 +83,8 @@ const navigation = {
       ),
     },
     {
-      name: 'YouTube',
-      href: '#',
+      name: "YouTube",
+      href: "#",
       icon: (props) => (
         <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
           <path
@@ -93,68 +96,74 @@ const navigation = {
       ),
     },
   ],
-}
+};
 
 export default function Footer() {
   return (
     <footer className="bg-black" aria-labelledby="footer-heading">
-     
       <div className="mx-auto max-w-7xl px-6 pb-6 sm:pt-24 lg:px-8 ">
         <div className="xl:grid xl:grid-cols-3 xl:gap-8">
-          <div className="space-y-8">
-            <Image
-              className="w-64"
-              src={White_Logo}
-              alt="Company name"
-            />
-          
-            <div className="flex space-x-6 ">
-             
-            <FontAwesomeIcon className='text-white' icon={faCoffee} />
-              
-        <p className="text-white">Youtube</p>
-              
-              
-            </div>
-          </div>
-          
-            <div className="md:grid md:grid-cols-2 md:gap-8">
-              <div>
-                <h3 className="text-sm font-semibold leading-6 text-gray-900">Solutions</h3>
-                <ul role="list" className="mt-6 space-y-4">
-                  {navigation.solutions.map((item) => (
-                    <li key={item.name}>
-                      <a href={item.href} className="text-sm leading-6 text-gray-600 hover:text-gray-900">
-                        {item.name}
-                      </a>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-          
-            </div>
+          <div className="space-y-8 ml-8">
+            <Image className="w-64" src={White_Logo} alt="Company name" />
 
-            <div className="md:grid md:grid-cols-2 md:gap-8">
-              <div>
-                <h3 className="text-sm font-semibold leading-6 text-gray-900">Solutions</h3>
-                <ul role="list" className="mt-6 space-y-4">
-                  {navigation.solutions.map((item) => (
-                    <li key={item.name}>
-                      <a href={item.href} className="text-sm leading-6 text-gray-600 hover:text-gray-900">
-                        {item.name}
-                      </a>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-          
-            </div>
            
+            <div className="flex space-x-6 ml-2 hover:text-red-500 ">
+              
+              <FontAwesomeIcon className="text-white w-4 hover:text-red-500" icon={faPhone} />
+              <p className="text-white text-sm font-semibold hover:text-red-500">+1 713-701-5597</p>
+            </div>
+            <div className="flex space-x-6 ml-2 ">
+              <FontAwesomeIcon className="text-white w-4 hover:text-red-500" icon={faEnvelope} />
+              <p className="text-white text-sm font-semibold hover:text-red-500">info@maksymizesolar.com</p>
+            </div>
           </div>
-        </div>
-       
-    
-    </footer>
-  )
-}
 
+          <div className="md:grid md:grid-cols-2 md:gap-8">
+            <div>
+              <h3 className="text-sm font-semibold leading-6 text-gray-900">
+                Solutions
+              </h3>
+              <ul role="list" className="mt-6 space-y-4">
+                {navigation.solutions.map((item) => (
+                  <li key={item.name}>
+                    <a
+                      href={item.href}
+                      className="text-sm leading-6 text-gray-600 hover:text-gray-900"
+                    >
+                      {item.name}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
+
+          <div className="space-y-8 ml-8">
+        
+
+           
+            <div className="flex space-x-4  ml-2 hover:text-red-500 ">
+              <FontAwesomeIcon className="text-white w-4 hover:text-red-500" icon={faFacebook} />
+              <p className="text-white text-md font-bold leading-4 hover:text-red-500">Ivan Pashov</p>
+            </div>
+            <div className="flex space-x-4  ml-2 ">
+              <FontAwesomeIcon className="text-white w-4 hover:text-red-500" icon={faYoutube} />
+              <p className="text-white text-md font-bold leading-4 hover:text-red-500">Ivan Pashov</p>
+            </div>
+            
+            <div className="flex space-x-4  ml-2 hover:text-red-500 ">
+              <FontAwesomeIcon className="text-white w-4 hover:text-red-500" icon={faInstagram} />
+              <p className="text-white text-md font-bold leading-4 hover:text-red-500">@ivonpashov</p>
+            </div>
+            <div className="flex space-x-4  ml-2 ">
+              <FontAwesomeIcon className="text-white w-4 hover:text-red-500" icon={faLinkedin} />
+              <p className="text-white text-md font-bold leading-4 hover:text-red-500">Ivan Pashov</p>
+            </div>
+          </div>
+
+          
+        </div>
+      </div>
+    </footer>
+  );
+}
