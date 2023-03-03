@@ -16,6 +16,9 @@
   width: 100%;
   
 }
+a:hover{
+  color: inherit !important ;
+}
 
 
 .banner-con>div , .about-con>div{
@@ -118,7 +121,31 @@
     background-position-y: 10px;
 
   }
+.data_row{
+  border: 2px solid red;
+}  
 
+.inp-field{
+  margin-bottom: 2rem;
+  height: 3rem;
+  border-radius: 10px;
+  background-color: #dcdcdc;
+  outline: none;
+}
+.inp-field:focus,.inp-field:active,
+.inp-text:focus,.inp-text:active{
+  background-color: #dcdcdc;
+  border: 2px solid rgba(180, 179, 179,0.6);
+  outline: none;
+  box-shadow: none;
+}
+.inp-text{
+  background-color: #dcdcdc;
+  border-radius: 10px;
+
+
+}
+ 
   @media only screen and (min-width:640px) and (max-width : 900px)  {
    .contact-btn{
     display: none;

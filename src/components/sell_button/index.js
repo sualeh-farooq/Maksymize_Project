@@ -62,3 +62,15 @@ export default function Sell_Button({title}) {
       </>
     )
   }
+  export function Submit_Button({title}) {
+    return (
+      <>
+      <button className="res-btn rounded-full h-12 border-2  font-semibold px-10   items-center text-md bg-gray-900 text-white  bg-gray-900 hover:bg-green-600 hover:text-white hover:border-green-600 duration-500 hover:-translate-y-3	">
+        <span className="block uppercase tracking-wider" >
+      
+   {title}
+</span>
+        </button>
+      </>
+    )
+  }
