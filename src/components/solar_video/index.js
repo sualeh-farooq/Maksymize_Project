@@ -11,17 +11,20 @@ function SolarVideo({ thumbnail }) {
   return (
     <div >
       {isPlaying ? (
+        <div>
+          
         <iframe
         id="iframe"
           width="520"
-          className="mr-8 slide-left"
+          className="vid-iframe mr-8 slide-left"
           height="325"
-          src="https://www.youtube.com/embed/L9V_2V967vs?autoplay=0"
+          src="https://www.youtube.com/embed/L9V_2V967vs?autoplay=1"
           title="Why EPCs Don&#39;t Want To Work With NEW Solar Reps"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowfullscreen
         ></iframe>
+        </div>
       ) : (
         <Image
           width={560}
