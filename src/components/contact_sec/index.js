@@ -13,7 +13,7 @@ export function Contact_Section(){``
     const [show, setShow] = useState(false);
 
     return <>
- <div className="approach-bg h-96 order-1 z-0" style={{height:'55rem'}}>
+ <div className="approach-bg h-96 order-1 z-0" style={{height:'65rem'}}>
           
             <div className="w-full flex items-center justify-center ">
                 <div className="absolute top-36 w-full approach-bg  rounded py-12 lg:px-28 px-8">

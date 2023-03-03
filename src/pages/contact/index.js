@@ -3,6 +3,7 @@ import NavBar from "@/components/navbar";
 import { Contact_Section } from "@/components/contact_sec";
 import Head from "next/head";
 import Script from "next/script";
+import Footer from "@/components/footer";
 export default function ContactPage() {
   return (
     <>
@@ -16,6 +17,7 @@ export default function ContactPage() {
       </Head>
       <NavBar />
       <Contact_Section />
+      <Footer />
 
       <Script
         id="bootstrap-cdn"
