@@ -58,7 +58,7 @@ export default function NavBar() {
                       </div>
 
                       <div className="hidden mr-6  sm:flex sm:space-x-16">
-                     <Link href="/">   <a
+                     <Link href="/home">   <a
                           className={router.pathname == "/" ? "active inline-flex items-center  font-semibold	focus:text-red-400  px-1 pt-1 text-sm  text-xl" : "inline-flex items-center  font-semibold	focus:text-red-400  px-1 pt-1 text-sm  text-xl"}
       
                         >
@@ -82,7 +82,7 @@ export default function NavBar() {
 
               <Disclosure.Panel className="sm:hidden">
                 <div className="space-y-1 pt-2 pb-4">
-                <Link href="/">
+                <Link href="/home">
                   <Disclosure.Button
                     as="a"
                   className={router.pathname=="/"?"block border-l-4  py-2 pl-3 pr-4 text-gray-500 font-medium  text-white bg-black" : "block border-l-4  py-2 pl-3 pr-4 text-gray-500 font-medium  hover:text-white hover:bg-black"}

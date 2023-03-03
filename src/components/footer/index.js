@@ -18,7 +18,7 @@ import Image from "next/image";
 
 const navigation = {
   footer: [
-    { title: "Home", href: "/" },
+    { title: "Home", href: "/home" },
     { title: "Contact", href: "/contact" },
     { title: "About", href: "/about" },
   ],
