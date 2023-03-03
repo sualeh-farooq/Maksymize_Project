@@ -19,7 +19,7 @@ export default function Hero() {
 
   return (
     <>
-      <div className="relative  isolate overflow-hidden bg-indigo-500">
+      <div className="relative z-0 mt-20 isolate overflow-hidden bg-indigo-500">
         <Image
           src={Home_Banner}
           width={100}
@@ -28,16 +28,9 @@ export default function Hero() {
           className="absolute bg-zinc-900 inset-0 blur-sm -z-10 h-full w-full object-cover"
         />
 
-        {/* <div className="relative isolate overflow-hidden bg-gray-900">
-      <img
-        src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2830&q=80&blend=111827&sat=-100&exp=15&blend-mode=multiply"
-        alt=""
-        className="absolute inset-0 -z-10 h-full w-full object-cover"
-      />
-      */}
         <div className="px-6 flex ban-pan lg:px-8  bg-black bg-opacity-90">
           
-            {/* <div className="hidden sm:mb-8 sm:flex sm:justify-"></div> */}
+        
             <div className="banner-con">
               <div className="text-left max-w-lg	 flex flex-col justify-around h-48  md:pt-16">
                 <h1 className=" text-4xl font-bold text-white sm:text-4xl lg:text-6xl md:text-4xl">
@@ -57,7 +50,7 @@ export default function Hero() {
                 <div className=" relative  p-0 mb-2">
                   <Image
                     src={Flying}
-                    className=" w-auto flying h-auto	" // just an example
+                    className=" w-auto flying h-auto	"
                   />
                 </div>
               </div>

@@ -144,20 +144,20 @@ export default function Footer() {
            
             <div className="flex space-x-4  ml-2 hover:text-red-500 ">
               <FontAwesomeIcon className="text-white w-4 hover:text-red-500" icon={faFacebook} />
-              <p className="text-white text-md font-bold leading-4 hover:text-red-500">Ivan Pashov</p>
+              <a href="#" className="text-white text-md font-bold leading-4 hover:text-red-500">Ivan Pashov</a>
             </div>
             <div className="flex space-x-4  ml-2 ">
               <FontAwesomeIcon className="text-white w-4 hover:text-red-500" icon={faYoutube} />
-              <p className="text-white text-md font-bold leading-4 hover:text-red-500">Ivan Pashov</p>
+              <a href="#" className="text-white text-md font-bold leading-4 hover:text-red-500">Ivan Pashov</a>
             </div>
             
             <div className="flex space-x-4  ml-2 hover:text-red-500 ">
               <FontAwesomeIcon className="text-white w-4 hover:text-red-500" icon={faInstagram} />
-              <p className="text-white text-md font-bold leading-4 hover:text-red-500">@ivonpashov</p>
+              <a href="#" className="text-white text-md font-bold leading-4 hover:text-red-500">@ivonpashov</a>
             </div>
             <div className="flex space-x-4  ml-2 ">
               <FontAwesomeIcon className="text-white w-4 hover:text-red-500" icon={faLinkedin} />
-              <p className="text-white text-md font-bold leading-4 hover:text-red-500">Ivan Pashov</p>
+              <a href="#" className="text-white text-md font-bold leading-4 hover:text-red-500">Ivan Pashov</a>
             </div>
           </div>
 

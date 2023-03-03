@@ -1,5 +1,5 @@
 import '@/styles/globals.css'
-import '@/styles/hero.css'
+import '@/styles/custom.css'
 import 'animate.css';
 
 // import 'bootstrap/dist/css/bootstrap.css'

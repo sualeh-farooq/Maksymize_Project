@@ -45,7 +45,7 @@ export default function Leads() {
             </p>
           </div>
           <div className="text-left max-w-lg	 flex flex-col justify-around   md:pt-2">
-            {/* <SolarVideo thumbnail={Thumbnail}  /> */}
+        
             <Image src={GetAcess} alt="Access 800" />
           </div>
         </div>
@@ -58,9 +58,9 @@ export function BlackBook() {
   return (
     <>
       <div className="px-6 flex ban-pan lg:px-6 pt-2 red-bg	 ">
-        <div className="solar_con">
-          <div className="text-left max-w-lg pr-20	 flex flex-col justify-around   md:pt-4">
-            {/* <SolarVideo thumbnail={Thumbnail}  /> */}
+        <div className="solar_con justify-between">
+          <div className="black-book text-left max-w-lg pr-20	 flex flex-col justify-center   md:pt-4">
+        
             <Image src={BlackBookImg} alt="Access 800" />
           </div>
           <div className="text-left max-w-md	 flex flex-col justify-around   md:pt-10">
@@ -173,7 +173,7 @@ export function Cloud() {
             </ul>
             <ul role="list" className="mt-6 flex justify-center gap-x-6">
               <li>
-                <p className="px-8 font-thin leading-7">
+                <p className="px-4 font-thin leading-7">
                   Instead of running generic solar ads that people have been
                   exposed to for years and have become immune towards we use
                   solar offers that go hand in hand with the concept of solar
@@ -365,7 +365,7 @@ export function Results() {
     <>
       <div className=" flex ban-pan lg:px-6 pt-2 approach-bg	 ">
         <div className="solar_con">
-          <div className="text-left max-w-lg	 flex flex-col justify-around   md:pt-4">
+          <div className="text-left lcd-div max-w-lg	 flex flex-col justify-around   md:pt-4">
             {/* <SolarVideo thumbnail={Thumbnail}  /> */}
             <Image src={LCDImage} alt="LCD" />
           </div>
