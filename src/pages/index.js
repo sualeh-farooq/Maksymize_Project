@@ -1,11 +1,11 @@
 import Head from 'next/head'
 import { Inter } from 'next/font/google'
 import HomePage from './Home'
-import Swiper from 'swiper'
-import 'swiper/css'
+// import Swiper from '@s'
+// import 'swiper/css'
 
 
-const swiper = new Swiper()
+// const swiper = new Swiper()
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
 }

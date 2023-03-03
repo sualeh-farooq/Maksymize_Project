@@ -149,5 +149,12 @@
       margin-left: 0%;
       text-align: center;
      }
-   
+     .flying{
+      display: none;
+      
+     }
+     .hero-con{
+      text-align: center;
+      padding: 40px 30px;
+     }
   }

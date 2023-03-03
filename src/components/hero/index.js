@@ -25,14 +25,14 @@ export default function Hero() {
           width={100}
           height={100}
           alt="banner"
-          className="absolute bg-zinc-900 inset-0 blur-sm -z-10 h-full w-full object-cover"
+          className=" flying-img absolute bg-zinc-900 inset-0 blur-sm -z-10 h-full w-full object-cover"
         />
 
         <div className="px-6 flex ban-pan lg:px-8  bg-black bg-opacity-90">
           
         
             <div className="banner-con flex">
-              <div className="text-left max-w-lg	 flex flex-col justify-around h-48  md:pt-16">
+              <div className="hero-con text-left max-w-lg	 flex flex-col justify-around h-48  md:pt-16">
                 <h1 className=" text-4xl font-bold text-white sm:text-4xl lg:text-6xl md:text-4xl">
                   We <span className="text-red-500"> Maksy</span>mize your solar sales
                 </h1>
