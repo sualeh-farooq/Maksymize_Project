@@ -18,10 +18,9 @@ import Image from "next/image";
 
 const navigation = {
   footer: [
-    { title: "Contact", href: "#" },
-    { title: "About", href: "#" },
-    { title: "Results", href: "#" },
-    { title: "Home", href: "#" },
+    { title: "Home", href: "/" },
+    { title: "Contact", href: "/contact" },
+    { title: "About", href: "/about" },
   ],
   social: [
     { title: "Ivan Pashov", icon: faFacebook, href: "#" },

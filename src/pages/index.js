@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import { Inter } from 'next/font/google'
-import HomePage from './Home'
+import HomePage from './home'
 // import Swiper from '@s'
 // import 'swiper/css'
 

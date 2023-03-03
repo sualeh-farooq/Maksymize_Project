@@ -7,7 +7,18 @@
     width: 100%;
     
 }
-.banner-con>div{
+.about-con {
+  /* border:2px solid red; */
+  height: max-content !important;
+  display: flex;
+  flex-direction: row !important;
+  justify-content: flex-start;
+  width: 100%;
+  
+}
+
+
+.banner-con>div , .about-con>div{
     /* border: 2px solid red; */
     height: max-content;
 
@@ -15,6 +26,10 @@
 
 #headlessui-disclosure-button:focus {
   border: none !important;
+}
+
+.active{
+  color: #ef4444 !important;
 }
 
 
@@ -29,6 +44,24 @@
     padding: 10px;
     /* border: 2px solid red; */
 }
+.about_con {
+  height: max-content !important;
+    display: flex;
+    flex-direction: row !important;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 10px;
+}
+.founder_con{
+  height: max-content !important;
+    display: flex;
+    flex-direction: row !important;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 10px;
+}
 .approach-bg{
   background-color: #f1f1f1;
 }
@@ -36,6 +69,10 @@
     width: 35rem;
  
 }
+.founder-img-span{
+  margin-bottom: 45rem !important;
+}
+
 
 .slide-left {
 	-webkit-animation: slide-left 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite alternate both;
@@ -114,8 +151,13 @@
         align-content: center;
 
       }
+      
+      
+
       .solar_con>div>h1 ,
-      .solar_con>div>p  {
+      .solar_con>div>p ,
+      .about_con>div>h1,
+      .about_con>div>p {
         padding: 10px;
         text-align: center;
       }
@@ -161,7 +203,9 @@
      }
      .vid-iframe{
       width: 355px !important;
-     }
+     }.founder-img-span{
+      margin-bottom: 2rem !important;
+    }
   }
 
 

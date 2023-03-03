@@ -5,12 +5,14 @@ import { Disclosure, Menu, Transition } from "@headlessui/react";
 import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
 import MakLogo from "../../../public/assets/logo.png";
 import Contact_Btn from "../contact_button";
-
+import { useRouter } from "next/router";
+import Link from "next/link";
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }
 
 export default function NavBar() {
+  const router = useRouter()
   return (
     <>
       {
@@ -56,30 +58,19 @@ export default function NavBar() {
                       </div>
 
                       <div className="hidden mr-6  sm:flex sm:space-x-16">
-                        <a
-                          href="#"
-                          className=" inline-flex items-center  font-semibold	focus:text-red-400  px-1 pt-1 text-sm  text-xl	"
+                     <Link href="/">   <a
+                          className={router.pathname == "/" ? "active inline-flex items-center  font-semibold	focus:text-red-400  px-1 pt-1 text-sm  text-xl" : "inline-flex items-center  font-semibold	focus:text-red-400  px-1 pt-1 text-sm  text-xl"}
+      
                         >
                           Home
-                        </a>
-                        <a
-                          href="#"
-                          className=" font-semibold inline-flex items-center 	 focus:text-red-400 border-b-2 border-transparent px-1 pt-1 text-sm  text-xl"
-                        >
+                        </a></Link>
+                         <Link  href="/about"> <a
+                         
+                         className={router.pathname == "/about" ? "active inline-flex items-center  font-semibold	focus:text-red-400  px-1 pt-1 text-sm  text-xl" : "inline-flex items-center  font-semibold	focus:text-red-400  px-1 pt-1 text-sm  text-xl"}
+                         >
                           About
-                        </a>
-                        <a
-                          href="#"
-                          className="inline-flex items-center font-semibold  focus:text-red-400	 border-b-2 border-transparent px-1 pt-1 text-sm  text-xl"
-                        >
-                          Contact
-                        </a>
-                        <a
-                          href="#"
-                          className="inline-flex items-center border-b-2 font-semibold	 focus:text-red-400 border-transparent px-1 pt-1 text-sm  text-xl"
-                        >
-                          Results
-                        </a>
+                        </a></Link>
+                       
                       </div>
                       <div className="hidden sm:ml-6 sm:flex sm:space-x-8">
                         <Contact_Btn />
@@ -91,34 +82,34 @@ export default function NavBar() {
 
               <Disclosure.Panel className="sm:hidden">
                 <div className="space-y-1 pt-2 pb-4">
+                <Link href="/">
+                  <Disclosure.Button
+                    as="a"
+                  className={router.pathname=="/"?"block border-l-4  py-2 pl-3 pr-4 text-gray-500 font-medium  text-white bg-black" : "block border-l-4  py-2 pl-3 pr-4 text-gray-500 font-medium  hover:text-white hover:bg-black"}
+                  >
+                   
+                    Home
+                  </Disclosure.Button>
+                    </Link>
+                    <Link href="/about">
+                  <Disclosure.Button
+                    as="a"
+                  
+                    className={router.pathname=="/about"?"block border-l-4  py-2 pl-3 pr-4 text-gray-500 font-medium  text-white bg-black" : "block border-l-4  py-2 pl-3 pr-4 text-gray-500 font-medium  hover:text-white hover:bg-black"}
+                    >
+                    About
+                  
+                  </Disclosure.Button>
+                  </Link>
+                  <Link href="/contact">
                   <Disclosure.Button
                     as="a"
                     href="#"
-                    className="block border-l-4  py-2 pl-3 pr-4 text-gray-500 font-medium  hover:text-white hover:bg-black"
-                  >
-                    Dashboard
+                    className={router.pathname=="/contact"?"block border-l-4  py-2 pl-3 pr-4 text-gray-500 font-medium  text-white bg-black" : "block border-l-4  py-2 pl-3 pr-4 text-gray-500 font-medium  hover:text-white hover:bg-black"}
+                    >
+                    Contact
                   </Disclosure.Button>
-                  <Disclosure.Button
-                    as="a"
-                    href="#"
-                    className="block border-l-4 border-transparent py-2 pl-3 pr-4  font-medium text-gray-500 hover:text-red-500  hover:bg-black hover:text-white hover:font-bold"
-                  >
-                    Team
-                  </Disclosure.Button>
-                  <Disclosure.Button
-                    as="a"
-                    href="#"
-                    className="block border-l-4 border-transparent py-2 pl-3 pr-4  font-medium text-gray-500  hover:bg-black hover:text-white hover:text-gray-700"
-                  >
-                    Projects
-                  </Disclosure.Button>
-                  <Disclosure.Button
-                    as="a"
-                    href="#"
-                    className="block border-l-4 border-transparent py-2 pl-3 pr-4  font-medium text-gray-500  hover:bg-black hover:text-white hover:text-red-500 "
-                  >
-                    Calendar
-                  </Disclosure.Button>
+                  </Link>
                 </div>
               </Disclosure.Panel>
             </>
