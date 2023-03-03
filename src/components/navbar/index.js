@@ -1,12 +1,9 @@
 import Head from "next/head";
 import Image from "next/image";
-import { Inter } from "next/font/google";
-// import styles from '@/styles/Home.module.css'
-import { Fragment } from "react";
+
 import { Disclosure, Menu, Transition } from "@headlessui/react";
 import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
 import MakLogo from "../../../public/assets/logo.png";
-// import Image from 'next/image'
 import Contact_Btn from "../contact_button";
 
 function classNames(...classes) {
@@ -94,32 +91,31 @@ export default function NavBar() {
 
               <Disclosure.Panel className="sm:hidden">
                 <div className="space-y-1 pt-2 pb-4">
-                  {/* Current: "bg-indigo-50 border-indigo-500 text-indigo-700", Default: "border-transparent text-gray-500 hover:bg-gray-50  hover:text-gray-700" */}
                   <Disclosure.Button
                     as="a"
                     href="#"
-                    className="block border-l-4  py-2 pl-3 pr-4 text-gray-500 font-medium  hover:text-red-500 hover:bg-gray-50"
+                    className="block border-l-4  py-2 pl-3 pr-4 text-gray-500 font-medium  hover:text-white hover:bg-black"
                   >
                     Dashboard
                   </Disclosure.Button>
                   <Disclosure.Button
                     as="a"
                     href="#"
-                    className="block border-l-4 border-transparent py-2 pl-3 pr-4  font-medium text-gray-500 hover:text-red-500  hover:bg-gray-50 hover:text-gray-700 hover:font-bold"
+                    className="block border-l-4 border-transparent py-2 pl-3 pr-4  font-medium text-gray-500 hover:text-red-500  hover:bg-black hover:text-white hover:font-bold"
                   >
                     Team
                   </Disclosure.Button>
                   <Disclosure.Button
                     as="a"
                     href="#"
-                    className="block border-l-4 border-transparent py-2 pl-3 pr-4  font-medium text-gray-500  hover:bg-gray-50 hover:text-red-500 hover:text-gray-700"
+                    className="block border-l-4 border-transparent py-2 pl-3 pr-4  font-medium text-gray-500  hover:bg-black hover:text-white hover:text-gray-700"
                   >
                     Projects
                   </Disclosure.Button>
                   <Disclosure.Button
                     as="a"
                     href="#"
-                    className="block border-l-4 border-transparent py-2 pl-3 pr-4  font-medium text-gray-500  hover:bg-gray-50 hover:text-gray-700 hover:text-red-500 "
+                    className="block border-l-4 border-transparent py-2 pl-3 pr-4  font-medium text-gray-500  hover:bg-black hover:text-white hover:text-red-500 "
                   >
                     Calendar
                   </Disclosure.Button>

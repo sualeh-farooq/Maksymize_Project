@@ -31,7 +31,7 @@ export default function Hero() {
         <div className="px-6 flex ban-pan lg:px-8  bg-black bg-opacity-90">
           
         
-            <div className="banner-con">
+            <div className="banner-con flex">
               <div className="text-left max-w-lg	 flex flex-col justify-around h-48  md:pt-16">
                 <h1 className=" text-4xl font-bold text-white sm:text-4xl lg:text-6xl md:text-4xl">
                   We <span className="text-red-500"> Maksy</span>mize your solar sales
@@ -45,7 +45,6 @@ export default function Hero() {
                 <Sell_Button title="Schedule a free strategy call"/>
                 </p>
               </div>
-
               <div className="text-left max-w-lg    md:py-2">
                 <div className=" relative  p-0 mb-2">
                   <Image

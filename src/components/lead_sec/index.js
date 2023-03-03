@@ -15,11 +15,9 @@ import { Result_Button } from "../sell_button";
 import BlackBookImg from "../../../public/assets/black_book.png";
 import LCDImage from "../../../public/assets/client.png";
 import { Strat_Button } from "../sell_button";
-import Service_Funnel from '../../../public/assets/ser_funnel.png'
-import Service_Chart from '../../../public/assets/ser_chart.png'
-import Service_Boost from '../../../public/assets/ser_boost.png'
-
-
+import Service_Funnel from "../../../public/assets/ser_funnel.png";
+import Service_Chart from "../../../public/assets/ser_chart.png";
+import Service_Boost from "../../../public/assets/ser_boost.png";
 
 export default function Leads() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -45,7 +43,6 @@ export default function Leads() {
             </p>
           </div>
           <div className="text-left max-w-lg	 flex flex-col justify-around   md:pt-2">
-        
             <Image src={GetAcess} alt="Access 800" />
           </div>
         </div>
@@ -60,7 +57,6 @@ export function BlackBook() {
       <div className="px-6 flex ban-pan lg:px-6 pt-2 red-bg	 ">
         <div className="solar_con justify-between">
           <div className="black-book text-left max-w-lg pr-20	 flex flex-col justify-center   md:pt-4">
-        
             <Image src={BlackBookImg} alt="Access 800" />
           </div>
           <div className="text-left max-w-md	 flex flex-col justify-around   md:pt-10">
@@ -392,8 +388,6 @@ export function Results() {
   );
 }
 
-
-
 export function Services() {
   return (
     <div className="bg-black py-10">
@@ -408,12 +402,9 @@ export function Services() {
           className="mx-auto mt-20 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3"
         >
           <li>
-           <Image className="mx-auto" src={Service_Funnel} />
-
+            <Image className="mx-auto" src={Service_Funnel} />
           </li>
           <li>
-            
-
             <ul role="list" className="mt-6 flex justify-center gap-x-6">
               <li>
                 <p className="text-2xl font-semibold text-white	">
@@ -424,58 +415,65 @@ export function Services() {
             <ul role="list" className="mt-6 flex justify-center gap-x-6">
               <li>
                 <p className="px-10 text-white font-thin leading-8">
-                Is your Solar business here to stay? In this day and age nothing says “We’re a legit company and we take pride in everything that we do!” more than a well built Company Brand.
-<br />
-The moment people feel like they can relate to what the company stands for is the moment they will be willing to pay for an install more than they otherwise would with any other company!
+                  Is your Solar business here to stay? In this day and age
+                  nothing says “We’re a legit company and we take pride in
+                  everything that we do!” more than a well built Company Brand.
+                  <br />
+                  The moment people feel like they can relate to what the
+                  company stands for is the moment they will be willing to pay
+                  for an install more than they otherwise would with any other
+                  company!
                 </p>
               </li>
             </ul>
           </li>
           <li>
-           <Image className="mx-auto" src={Service_Chart} />
-
+            <Image className="mx-auto" src={Service_Chart} />
           </li>
           <li>
-            
-
             <ul role="list" className="mt-6 flex justify-center gap-x-6">
               <li>
                 <p className="text-2xl font-semibold text-white	">
-                Fresh & Exclusive Lead Generation​​
+                  Fresh & Exclusive Lead Generation​​
                 </p>
               </li>
             </ul>
             <ul role="list" className="mt-6 flex justify-center gap-x-6">
               <li>
                 <p className="px-10 text-white font-thin leading-8">
-                We do NOT sell leads! We’re not in the business of selling or reselling leads.
-<br />
-We build you your very own lead generation funnel that spits out leads like crazy EVERY. SINGLE. DAY! More importantly, we help you turn those leads into closed deals.                </p>
+                  We do NOT sell leads! We’re not in the business of selling or
+                  reselling leads.
+                  <br />
+                  We build you your very own lead generation funnel that spits
+                  out leads like crazy EVERY. SINGLE. DAY! More importantly, we
+                  help you turn those leads into closed deals.{" "}
+                </p>
               </li>
             </ul>
           </li>
           <li>
-           <Image className="mx-auto" src={Service_Boost} />
-
+            <Image className="mx-auto" src={Service_Boost} />
           </li>
           <li>
-            
-
             <ul role="list" className="mt-6 flex justify-center gap-x-6">
               <li>
                 <p className="text-2xl font-semibold text-white	">
-                Solar Sales Training​
-
+                  Solar Sales Training​
                 </p>
               </li>
             </ul>
             <ul role="list" className="mt-6 flex justify-center gap-x-6">
               <li>
                 <p className="px-10 text-white font-thin leading-8">
-                If you’ve been canvassing to sign solar deals up until now and you want to make the switch to selling from a distance but you don’t really have a legitimate system to follow…
-                <br />
-                Not to worry! We have all the resources you possibly need to turn those leads into closed deals without going through a bunch of trial and error!
-                </p>              </li>
+                  If you’ve been canvassing to sign solar deals up until now and
+                  you want to make the switch to selling from a distance but you
+                  don’t really have a legitimate system to follow…
+                  <br />
+                  Not to worry! We have all the resources you possibly need to
+                  turn those leads into closed deals without going through a
+                  bunch of trial and error!
+                </p>{" "}
+              </li>
             </ul>
           </li>
         </ul>
@@ -484,24 +482,18 @@ We build you your very own lead generation funnel that spits out leads like craz
   );
 }
 
+export function Boost() {
+  return (
+    <>
+      <div class="boost_div flex items-center flex-col  justify-center h-72  bg-fixed bg-center w-100 custom-img">
+        <h1 className=" text-4xl font-bold text-white  sm:text-4xl lg:text-6xl md:text-4xl">
+          Boost Your Leads{" "}
+        </h1>
 
-
-export  function Boost() {
-  return <>
-  
-  <div
-  class="flex items-center flex-col  justify-center h-72  bg-fixed bg-center w-100 custom-img"
->
-<h1 className=" text-4xl font-bold text-white  sm:text-4xl lg:text-6xl md:text-4xl">
-Boost Your Leads            </h1>
-
-<span className="mt-8">
-
-  <Strat_Button title="Schedule a free strategy call" />
-</span>
-
-</div>
-
-
-  </>
+        <span className="mt-8">
+          <Strat_Button title="Schedule a free strategy call" />
+        </span>
+      </div>
+    </>
+  );
 }
