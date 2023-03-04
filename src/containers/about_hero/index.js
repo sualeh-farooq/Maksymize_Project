@@ -4,11 +4,7 @@ import {Result_Button } from "@/components/buttons";
 import About_Cover from '../../../public/assets/about_cover.jpg'
 import FounderImg from '../../../public/assets/profile.png'
 import Together from '../../../public/assets/together.png'
-
-
 export default function AboutHero() {
-  
- 
   return (
     <>
       <div className="relative z-0 mt-20 isolate overflow-hidden bg-indigo-500">
