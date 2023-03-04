@@ -11,10 +11,8 @@ export default function Slider({ card }) {
           <div className="cardsgrid">
             <Swiper
               slidesPerView={2}
-              spaceBetween={4}
-              autoplay={{
-                delay: 2500
-              }}
+              spaceBetween={6}
+             
               slidesPerGroup={1}
               loop={true}
               loopFillGroupWithBlank={true}
@@ -22,6 +20,7 @@ export default function Slider({ card }) {
                 clickable: true,
               }}
               navigation={true}
+              autoplay={{delay:3000}}
               modules={[Autoplay, Pagination, Navigation]}
               className="mySwiper"
               breakpoints={{
