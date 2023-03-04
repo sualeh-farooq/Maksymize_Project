@@ -3,7 +3,7 @@ export function Contact_Section() {
 
   return (
     <>
-      <div className="approach-bg h-96 order-1 z-0" style={{ height: "80rem" }}>
+      <div className="approach-bg h-96 order-1 z-0" style={{ height: "65rem" }}>
         <div className="w-full flex items-center justify-center ">
           <div className="absolute top-36 w-full approach-bg  rounded py-12 lg:px-28 px-8">
             <p className="md:text-lg md:mb-10 text-md uppercase font-bold leading-7 text-center text-red-500">
