@@ -1,6 +1,5 @@
 import { Submit_Button } from "@/components/buttons";
 export function Contact_Section() {
-
   return (
     <>
       <div className="approach-bg h-96 order-1 z-0" style={{ height: "65rem" }}>
@@ -9,7 +8,6 @@ export function Contact_Section() {
             <p className="md:text-lg md:mb-10 text-md uppercase font-bold leading-7 text-center text-red-500">
               get in touch
             </p>
-
             <p className="md:text-7xl text-5xl font-bold tracking-wide text-center text-black">
               Contact Us
             </p>

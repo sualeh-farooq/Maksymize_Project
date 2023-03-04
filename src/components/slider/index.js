@@ -3,6 +3,7 @@ import { Pagination, Navigation , Autoplay } from "swiper";
 import "swiper/css";
 import Head from "next/head";
 import "swiper/css/pagination";
+import Image from "next/image";
 import Script from "next/script";
 import "swiper/css/free-mode";
 import "lightbox2/dist/js/lightbox.js";
@@ -56,10 +57,10 @@ export default function Slider({ card }) {
                 },
               }}
             >
-              <SwiperSlide>      <a class="example-image-link" href="http://lokeshdhakar.com/projects/lightbox2/images/image-3.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="http://lokeshdhakar.com/projects/lightbox2/images/thumb-3.jpg" alt=""/></a></SwiperSlide>
-              <SwiperSlide>      <a class="example-image-link" href="http://lokeshdhakar.com/projects/lightbox2/images/image-3.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="http://lokeshdhakar.com/projects/lightbox2/images/thumb-3.jpg" alt=""/></a></SwiperSlide>
-              <SwiperSlide>      <a class="example-image-link" href="http://lokeshdhakar.com/projects/lightbox2/images/image-3.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="http://lokeshdhakar.com/projects/lightbox2/images/thumb-3.jpg" alt=""/></a></SwiperSlide>
-              <SwiperSlide>      <a class="example-image-link" href="http://lokeshdhakar.com/projects/lightbox2/images/image-3.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="http://lokeshdhakar.com/projects/lightbox2/images/thumb-3.jpg" alt=""/></a></SwiperSlide>
+              <SwiperSlide> <a class="example-image-link" href="http://lokeshdhakar.com/projects/lightbox2/images/image-3.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><Image class="example-image" src={card} alt=""/></a></SwiperSlide>
+              {/* <SwiperSlide>      <a class="example-image-link" href="http://lokeshdhakar.com/projects/lightbox2/images/image-3.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="http://lokeshdhakar.com/projects/lightbox2/images/thumb-3.jpg" alt=""/></a></SwiperSlide> */}
+              {/* <SwiperSlide>      <a class="example-image-link" href="http://lokeshdhakar.com/projects/lightbox2/images/image-3.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="http://lokeshdhakar.com/projects/lightbox2/images/thumb-3.jpg" alt=""/></a></SwiperSlide> */}
+              {/* <SwiperSlide>      <a class="example-image-link" href="http://lokeshdhakar.com/projects/lightbox2/images/image-3.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="http://lokeshdhakar.com/projects/lightbox2/images/thumb-3.jpg" alt=""/></a></SwiperSlide> */}
               {/* <SwiperSlide>{card}</SwiperSlide>{" "}
               <SwiperSlide>{card}</SwiperSlide>{" "}
               <SwiperSlide>{card}</SwiperSlide>{" "}
