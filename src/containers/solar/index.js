@@ -1,13 +1,7 @@
-import { useState } from "react";
-import { Dialog } from "@headlessui/react";
-import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
-import Home_Banner from "../../../public/assets/home.jpg";
-import Flying from "../../../public/assets/flying.png";
-import Image from "next/image";
-// import '../../styles/hero.scss'
-import Sell_Button from "../sell_button";
-import SolarVideo from "../solar_video";
+
+import SolarVideo from "../../components/solar_video";
 import Thumbnail from '../../../public/assets/video_thumbnail.png'
+import { useState } from "react";
 export default function Solar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 

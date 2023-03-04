@@ -1,14 +1,10 @@
-import { useState } from "react";
-import { Dialog } from "@headlessui/react";
-import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
-import Home_Banner from "../../../public/assets/home.jpg";
-import Flying from "../../../public/assets/flying.png";
+
 import Image from "next/image";
-import Sell_Button from "../sell_button";
+import {Result_Button } from "@/components/buttons";
 import About_Cover from '../../../public/assets/about_cover.jpg'
-import Together from '../../../public/assets/together.png'
-import { Result_Button } from "../sell_button";
 import FounderImg from '../../../public/assets/profile.png'
+import Together from '../../../public/assets/together.png'
+
 
 export default function AboutHero() {
   

@@ -1,10 +1,9 @@
-import Head from "next/head";
-import Image from "next/image";
 
-import { Disclosure, Menu, Transition } from "@headlessui/react";
+import Image from "next/image";
+import { Disclosure } from "@headlessui/react";
 import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
 import MakLogo from "../../../public/assets/logo.png";
-import Contact_Btn from "../contact_button";
+import Contact_Btn from "../buttons";
 import { useRouter } from "next/router";
 import Link from "next/link";
 function classNames(...classes) {

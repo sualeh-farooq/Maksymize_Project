@@ -1,243 +1,229 @@
-.banner-con {
-    /* border:2px solid red; */
-    height: max-content !important;
-    display: flex;
-    flex-direction: row !important;
-    justify-content: space-around;
-    width: 100%;
-    
-}
+.banner-con,
 .about-con {
-  /* border:2px solid red; */
   height: max-content !important;
   display: flex;
   flex-direction: row !important;
-  justify-content: flex-start;
+  justify-content: space-around;
   width: 100%;
-  
-}
-a:hover{
-  color: inherit !important ;
 }
 
-
-.banner-con>div , .about-con>div{
-    /* border: 2px solid red; */
-    height: max-content;
-
+.about-con {
+  justify-content: flex-start !important;
 }
 
-#headlessui-disclosure-button:focus {
-  border: none !important;
+a:hover {
+  color: inherit !important;
 }
 
-.active{
+.banner-con>div,
+.about-con>div {
+  height: max-content;
+}
+
+.active {
   color: #ef4444 !important;
 }
 
-
-
-.solar_con{
-    height: max-content !important;
-    display: flex;
-    flex-direction: row !important;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    width: 100%;
-    padding: 10px;
-    /* border: 2px solid red; */
-}
-.about_con {
+.solar_con,
+.about_con,
+.founder_con {
   height: max-content !important;
-    display: flex;
-    flex-direction: row !important;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    width: 100%;
-    padding: 10px;
+  display: flex;
+  flex-direction: row !important;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 10px;
 }
-.founder_con{
-  height: max-content !important;
-    display: flex;
-    flex-direction: row !important;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    width: 100%;
-    padding: 10px;
-}
-.approach-bg{
+
+.approach-bg {
   background-color: #f1f1f1;
 }
+
 .flying {
-    width: 35rem;
- 
+  width: 35rem;
 }
-.founder-img-span{
+
+.founder-img-span {
   margin-bottom: 45rem !important;
 }
 
-
 .slide-left {
-	-webkit-animation: slide-left 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite alternate both;
-	        animation: slide-left 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite alternate both;
+  -webkit-animation: slide-left 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite alternate both;
+  animation: slide-left 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite alternate both;
 }
 
- @-webkit-keyframes slide-left {
-    0% {
-      -webkit-transform: translateX(0);
-              transform: translateX(0);
-    }
-    
-    100% {
-      -webkit-transform: translateX(-20px);
-              transform: translateX(-20px);
-    }
-  }
-  @keyframes slide-left {
-    0% {
-      -webkit-transform: translateX(0);
-              transform: translateX(0);
-    }
-   
-    100% {
-      -webkit-transform: translateX(-20px);
-              transform: translateX(-20px);
-    }
-  }
-  
+.lead-bg {
+  background-color: #39a463;
+}
 
-  .lead-bg{
-    background-color: #39a463    ;
-  }
+.red-bg {
+  background-color: #f54a4a;
+}
 
-  .red-bg {
-    background-color: #f54a4a;
-  }
+.custom-img {
+  background-image: url("../../public/assets/boost.png");
+  background-size: 100%;
+  background-position-x: center;
+  background-position-y: 10px;
 
-  .custom-img {
-    background-image: url("../../public/assets/boost.png");
-    background-size: 100%;
-    background-position-x: center;
-    background-position-y: 10px;
+}
 
-  }
-.data_row{
+.data_row {
   border: 2px solid red;
-}  
+}
 
-.inp-field{
+.inp-field {
   margin-bottom: 2rem;
   height: 3rem;
   border-radius: 10px;
   background-color: #dcdcdc;
   outline: none;
 }
-.inp-field:focus,.inp-field:active,
-.inp-text:focus,.inp-text:active{
+
+.inp-field:focus,
+.inp-field:active,
+.inp-text:focus,
+.inp-text:active {
   background-color: #dcdcdc;
-  border: 2px solid rgba(180, 179, 179,0.6);
+  border: 2px solid rgba(180, 179, 179, 0.6);
   outline: none;
   box-shadow: none;
 }
-.inp-text{
+
+.inp-text {
   background-color: #dcdcdc;
   border-radius: 10px;
-
-
 }
- 
-  @media only screen and (min-width:640px) and (max-width : 900px)  {
-   .contact-btn{
+
+@-webkit-keyframes slide-left {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+
+  100% {
+    -webkit-transform: translateX(-20px);
+    transform: translateX(-20px);
+  }
+}
+
+@keyframes slide-left {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+
+  100% {
+    -webkit-transform: translateX(-20px);
+    transform: translateX(-20px);
+  }
+}
+
+
+@media only screen and (min-width:640px) and (max-width : 900px) {
+  .contact-btn {
     display: none;
-   }
-  
-  
+  }
+
+}
+
+@media only screen and (min-width:320px) and (max-width:470px) {
+  .stats_Div {
+    justify-content: center;
+  }
+
+  .sell-btn {
+    font-size: 12px;
+    padding: 10px;
+    width: 100%;
+  }
+
+  .early-btn {
+    font-size: 12px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .early-btn>span {
+
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+  }
+
+  .solar_con>div>h1,
+  .solar_con>div>p,
+  .about_con>div>h1,
+  .about_con>div>p {
+    padding: 10px;
+    text-align: center;
+  }
+
+  .solar_con>div>h4 {
+    padding: 10px 0px;
+    text-align: center;
+  }
+
+  .down_free,
+  .res-btn {
+    width: 100%;
+    text-align: center;
+  }
+
+  .down_free>span {
+    text-align: center;
+  }
+
+  .black-book {
+    margin: 20px 5px;
+  }
+
+  .lcd-div {
+    margin: 30px 0px;
+    padding-left: 50px;
+  }
+
+  .about,
+  .social,
+  .white-logo {
+    /* border: 2px solid orange;  */
+    text-align: center !important;
+    margin-left: 0%;
+    margin-top: 40px;
+
+  }
+
+  .about>div,
+  .social>div,
+  .white-logo>div {
+    margin-left: 0%;
+    text-align: center;
+  }
+
+  .flying {
+    display: none;
+
+  }
+
+  .hero-con {
+    text-align: center;
+    padding: 40px 30px;
+  }
+
+  .vid-iframe {
+    width: 355px !important;
+  }
+
+  .founder-img-span {
+    margin-bottom: 2rem !important;
+  }
 }
 
 
-
-
-  @media only screen and (min-width:320px) and (max-width:470px)  {
-      .stats_Div {
-        justify-content: center;
-      }
-      .sell-btn {
-        font-size: 12px;
-        padding: 10px;
-        width: 100%;
-      }
-      .early-btn{
-        font-size: 12px;    
-        width: 100%;
-        margin-bottom: 20px;
-      }
-      .early-btn>span{
-       
-        justify-content: center;
-        align-items: center;
-        align-content: center;
-
-      }
-      
-      
-
-      .solar_con>div>h1 ,
-      .solar_con>div>p ,
-      .about_con>div>h1,
-      .about_con>div>p {
-        padding: 10px;
-        text-align: center;
-      }
-      .solar_con>div>h4 {
-        padding: 10px 0px;
-        text-align: center;
-      }
-   
-      .down_free , .res-btn {
-        width: 100%;
-        text-align: center  ;
-      }
-      .down_free>span{
-        text-align: center;
-      }
-    
-      .black-book{
-        margin: 20px 5px;
-      }
-      .lcd-div{
-        margin: 30px 0px;
-        padding-left: 50px;
-      }
-    
-     .about , .social , .white-logo {
-       /* border: 2px solid orange;  */
-       text-align: center !important;
-      margin-left: 0%;
-      margin-top: 40px;
-      
-     }
-     .about>div, .social>div , .white-logo>div{
-      margin-left: 0%;
-      text-align: center;
-     }
-     .flying{
-      display: none;
-      
-     }
-     .hero-con{
-      text-align: center;
-      padding: 40px 30px;
-     }
-     .vid-iframe{
-      width: 355px !important;
-     }.founder-img-span{
-      margin-bottom: 2rem !important;
-    }
+@media only screen and (min-width:320px) and (max-width:400px) {
+  .vid-iframe {
+    width: 250px !important;
   }
-
-
-  @media only screen and (min-width:320px) and (max-width:400px) {
-    .vid-iframe{
-      width: 250px !important;
-     }
-  }
+}
