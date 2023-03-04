@@ -1,5 +1,5 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination, Navigation } from "swiper";
+import { Pagination, Navigation , Autoplay } from "swiper";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/free-mode";
@@ -10,9 +10,11 @@ export default function Slider({ card }) {
         <div className="cards">
           <div className="cardsgrid">
             <Swiper
-              slidesPerView={1}
-              spaceBetween={2}
-              autoplay={3000}
+              slidesPerView={2}
+              spaceBetween={4}
+              autoplay={{
+                delay: 2500
+              }}
               slidesPerGroup={1}
               loop={true}
               loopFillGroupWithBlank={true}
@@ -20,7 +22,7 @@ export default function Slider({ card }) {
                 clickable: true,
               }}
               navigation={true}
-              modules={[Pagination, Navigation]}
+              modules={[Autoplay, Pagination, Navigation]}
               className="mySwiper"
               breakpoints={{
                 320: {
@@ -33,11 +35,15 @@ export default function Slider({ card }) {
                 },
                 425: {
                   slidesPerView: 1,
-                  spaceBetween: 1,
+                  spaceBetween: 4,
                 },
                 768: {
-                  slidesPerView: 1,
+                  slidesPerView: 2,
                   spaceBetween: 1,
+                },
+                1024: {
+                  slidesPerView: 2,
+                  spaceBetween: 2,
                 },
               }}
             >

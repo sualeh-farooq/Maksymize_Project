@@ -9,10 +9,9 @@ export function Clients() {
             What our clients say
           </h2>
         </div>
-        <div className="border-2 mt-5 p-10">
+        <div className=" rev-card border-2 mt-5 sm:p-5 md:p-6 lg:p-5">
           {/* <Review_Card /> */}
 <Slider card={Review_Card} />
-
         </div>
       </div>
     </div>
