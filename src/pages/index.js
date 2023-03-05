@@ -1,10 +1,6 @@
 import Head from "next/head";
 import { Inter } from "next/font/google";
-import HomePage from "./home";
-function classNames(...classes) {
-  return classes.filter(Boolean).join(" ");
-}
-const inter = Inter({ subsets: ["latin"] });
+import HomePage from "@/components/Home";
 
 export default function Home() {
   return (
