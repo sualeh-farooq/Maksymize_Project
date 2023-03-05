@@ -3,7 +3,7 @@ import jonah from '../../../public/assets/jonah.jpg'
 export function Contact_Section() {
   return (
     <>
-      <div  className="approach-bg order-1 z-0" style={{minHeight:'calc(100vh - 40px)'}}>
+      <div  className="approach-bg pb-10 order-1 z-0" style={{minHeight:'calc(100vh - 40px)'}}>
         <div className="w-full flex items-center justify-center "style={{ height: "65rem" }}>
           <div className="absolute top-48 w-full mx-auto container   rounded py-12 lg:px-28 px-8">
             <p className="md:text-lg md:mb-10 text-md uppercase font-bold leading-7 text-center text-red-500">
