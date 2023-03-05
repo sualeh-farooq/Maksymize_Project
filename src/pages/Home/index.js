@@ -9,6 +9,7 @@ import { Services } from "@/containers/services";
 import { Results } from "@/containers/result";
 import { Boost } from "@/containers/boost";
 import { BlackBook } from "@/containers/blackbook";
+import { Clients } from "@/containers/clients/home";
 export default function HomePage() {
   return (
     <>
@@ -32,6 +33,7 @@ export default function HomePage() {
       <Services />
       <Results />
       <Boost />
+      <Clients />
       <Footer />
     </>
   );

@@ -22,7 +22,7 @@ export default function Hero() {
           width={100}
           height={100}
           alt="banner"
-          className=" flying-img absolute bg-zinc-900 inset-0 blur-sm -z-10 h-full w-full object-cover"
+          className=" flying-img absolute bg-zinc-900 inset-0  -z-10 h-full w-full object-cover"
         />
 
         <div className="px-6 flex ban-pan lg:px-8  bg-black bg-opacity-90">

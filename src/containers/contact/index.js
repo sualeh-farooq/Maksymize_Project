@@ -1,4 +1,5 @@
 import { Submit_Button } from "@/components/buttons";
+import jonah from '../../../public/assets/jonah.jpg'
 export function Contact_Section() {
   return (
     <>
