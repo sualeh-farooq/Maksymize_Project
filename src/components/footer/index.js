@@ -24,7 +24,7 @@ const navigation = {
     { title: "Ivan Pashov", icon: faYoutube, href: "https://www.linkedin.com/in/ivan-pashov-28a18b126/" , target:'_blank'},
   ],
   contact: [
-    { icon: faPhone, text: " +1 713-701-5597" ,href:"#" },
+    { icon: faPhone, text: " +1 713-701-5597" ,href:"tel:+1 713-701-5597" },
     { icon: faEnvelope, text: "info@maksymizesolar.com" , href:"mailto:info@maksymizesolar.com" },
   ],
 };
