@@ -215,6 +215,9 @@ a:hover {
     display: none;
 
   }
+  #content{
+    min-height: calc(100v - 40px) !important;
+  }
 
   .hero-con {
     text-align: center;

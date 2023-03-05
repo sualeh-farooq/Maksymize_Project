@@ -32,7 +32,7 @@ export default function NavBar() {
                           />
                         ) : (
                           <Bars3Icon
-                            className="block h-6 w-6"
+                            className="block h-8 w-8 "
                             aria-hidden="true"
                           />
                         )}
