@@ -13,7 +13,7 @@ export default function Solar() {
         <div className="px-6 flex ban-pan lg:px-6  bg-black pb-10 ">
           
             {/* <div className="hidden sm:mb-8 sm:flex sm:justify-"></div> */}
-            <div className="solar_con">
+            <div className="solar_con container mx-auto">
             <div className="text-left max-w-lg	 flex flex-col justify-around   md:pt-10">
               <h4 className=" uppercase text-md text-red-500 font-medium sm:text-md lg:text-md md:text-md">
                   we breathe

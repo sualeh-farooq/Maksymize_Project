@@ -31,7 +31,7 @@ const navigation = {
 
 export default function Footer() {
   return (
-    <footer className="bg-black " aria-labelledby="footer-heading">
+    <footer className="bg-black" aria-labelledby="footer-heading"  >
       <div className="mx-auto max-w-7xl px-6 sm:py-6 lg:px-8 ">
         <div className="xl:grid xl:grid-cols-3 xl:gap-8  py-2">
           <div className="white-logo space-y-4 ml-16 relative  mb-4">

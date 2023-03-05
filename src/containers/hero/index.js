@@ -16,7 +16,7 @@ export default function Hero() {
 
   return (
     <>
-      <div className="relative z-0 mt-20 isolate overflow-hidden bg-indigo-500">
+      <div className="relative z-0 mt-20 mx-w-full isolate overflow-hidden bg-indigo-500">
         <Image
           src={Home_Banner}
           width={100}
@@ -28,7 +28,7 @@ export default function Hero() {
         <div className="px-6 flex ban-pan lg:px-8  bg-black bg-opacity-90">
           
         
-            <div className="banner-con flex">
+            <div className="banner-con container mx-auto flex">
               <div className="hero-con text-left max-w-lg	 flex flex-col justify-around h-48  md:pt-16">
                 <h1 className=" text-4xl font-bold text-white sm:text-4xl lg:text-6xl md:text-4xl">
                   We <span className="text-red-500"> Maksy</span>mize your solar sales

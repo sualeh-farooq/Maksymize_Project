@@ -5,7 +5,7 @@ export function Results() {
     return (
       <>
         <div className=" flex ban-pan lg:px-6 pt-2 approach-bg	 ">
-          <div className="solar_con">
+          <div className="solar_con mx-auto container">
             <div className="text-left lcd-div max-w-lg	 flex flex-col justify-around   md:pt-4">
               {/* <SolarVideo thumbnail={Thumbnail}  /> */}
               <Image src={LCDImage} alt="LCD" />

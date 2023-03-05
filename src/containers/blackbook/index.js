@@ -5,7 +5,7 @@ export function BlackBook() {
     return (
       <>
         <div className="px-6 flex ban-pan lg:px-6 pt-2 red-bg	 ">
-          <div className="solar_con justify-between">
+          <div className="solar_con justify-between container mx-auto">
             <div className="black-book text-left max-w-lg pr-20	 flex flex-col justify-center   md:pt-4">
               <Image src={BlackBookImg} alt="Access 800" />
             </div>

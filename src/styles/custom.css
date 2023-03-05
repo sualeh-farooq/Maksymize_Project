@@ -97,6 +97,11 @@ a:hover {
   border-radius: 10px;
 }
 
+.swiper-pagination {
+  position: static !important;
+  margin-top: 20px !important;
+}
+
 @-webkit-keyframes slide-left {
   0% {
     -webkit-transform: translateX(0);

@@ -3,7 +3,7 @@ export default function Stats({stat_one_title , stat_one_desc , stat_two_title ,
             <div className="relative">
                
                 <div className="relative mx-auto max-w-full bg-gray-200 max-w-7xl px-6 lg:px-8">
-                    <div className="mx-auto max-w-full " >
+                    <div className="mx-auto container " >
                         <dl className="stats_Div rounded-lg  p-5 flex justify-between flex-wrap">
                             <div className="flex flex-col  p-6 text-center ">
                                 <dt className="order-2 mt-2  font-semibold space-x-4 uppercase leading-6 text-black">{stat_one_desc}</dt>

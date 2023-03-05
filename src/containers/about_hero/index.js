@@ -7,7 +7,7 @@ import Together from '../../../public/assets/together.png'
 export default function AboutHero() {
   return (
     <>
-      <div className="relative z-0 mt-20 isolate overflow-hidden bg-indigo-500">
+      <div className="relative z-0 mt-20 max-w-full isolate overflow-hidden bg-indigo-500">
         <Image
           src={About_Cover}
           width={100}
@@ -19,7 +19,7 @@ export default function AboutHero() {
         <div className="px-6 flex ban-pan lg:px-8  bg-black bg-opacity-70">
           
         
-            <div className="about-con py-20 ">
+            <div className="about-con py-20 mx-auto container ">
               <div className="hero-con text-left  pb-8	 flex flex-col justify-around   md:pt-16">
               <h4 className=" uppercase text-md text-red-600 pb-6 font-semibold sm:text-md lg:text-md md:text-md">
                   we are
@@ -50,7 +50,7 @@ export function AboutUs(){
        <div className="px-6 flex ban-pan lg:px-6  approach-bg pb-10 ">
           
           {/* <div className="hidden sm:mb-8 sm:flex sm:justify-"></div> */}
-          <div className="about_con">
+          <div className="about_con container mx-auto">
           <div className="text-left max-w-lg	 flex flex-col justify-around   md:pt-10">
             
               <h1 className=" uppercase my-8  tracking-widest text-4xl font-semibold text-red-500 sm:text-4xl lg:text-3xl md:text-4xl">
@@ -101,7 +101,7 @@ export function Founder(){
        <div className="px-6 flex ban-pan lg:px-6  approach-bg pb-10 ">
           
           {/* <div className="hidden sm:mb-8 sm:flex sm:justify-"></div> */}
-          <div className="founder_con">
+          <div className="founder_con container mx-auto">
           <div className="text-left max-w-md  px-6	 flex flex-col justify-around   md:pt-16 lg:mb-72 ">
              <span className="founder-img-span    relative">
              <Image width={300}  src={FounderImg}  />

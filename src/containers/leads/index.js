@@ -9,7 +9,7 @@ export default function Leads() {
     return (
       <>
         <div className="px-6 flex ban-pan lg:px-6  lead-bg	 ">
-          <div className="solar_con">
+          <div className="solar_con mx-auto container">
             <div className="text-left max-w-lg	 flex flex-col justify-around   md:pt-8">
               <h1 className=" text-4xl font-bold text-white sm:text-4xl lg:text-6xl md:text-4xl">
                 Get Early Access to The Solar Boss Lead Gen
